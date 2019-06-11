@@ -53,7 +53,8 @@ class Owner
     cats = 0 
     @pets. each do |k,v|
       if k == :fishes 
-        
+        v.each do 
+          fish = fish + 1 
       end
     end
   end
