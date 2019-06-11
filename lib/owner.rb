@@ -5,6 +5,8 @@ class Owner
   attr_accessor :name, :pets
   attr_reader :species 
   def initialize(species)
+    @@all << self 
+    @@count = @@count + 1
     @species = species 
     @pets = 
     {
@@ -13,6 +15,8 @@ class Owner
       :cats => []
     }
   end
+  def self.all 
+    
     
   def say_species 
     return "I am a #{@species}."
