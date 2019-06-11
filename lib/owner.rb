@@ -64,7 +64,7 @@ class Owner
       end
       if k == :cats 
         v.each do 
-          
+          cats = cats + 1 
         end
     end
   end
