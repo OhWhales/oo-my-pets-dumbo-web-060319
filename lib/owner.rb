@@ -52,7 +52,9 @@ class Owner
     dogs = 0
     cats = 0 
     @pets. each do |k,v|
-      
+      if k == :fishes 
+        
+      end
     end
   end
   
