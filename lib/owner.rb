@@ -51,7 +51,7 @@ class Owner
     fish = 0 
     dogs = 0
     cats = 0 
-    @pets. each do |pet|
+    @pets. each do |k,v|
       
     end
   end
