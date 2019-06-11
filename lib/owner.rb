@@ -61,6 +61,7 @@ class Owner
         v.each do 
           dogs = dogs + 1 
         end
+      end
     end
   end
   
