@@ -19,7 +19,7 @@ class Owner
     @@all 
   end 
   def self.count 
-    
+    @@count
   end
   def say_species 
     return "I am a #{@species}."
