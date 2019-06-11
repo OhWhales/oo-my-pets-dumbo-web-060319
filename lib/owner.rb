@@ -62,6 +62,10 @@ class Owner
           dogs = dogs + 1 
         end
       end
+      if k == :cats 
+        v.each do 
+          
+        end
     end
   end
   
