@@ -22,7 +22,7 @@ class Owner
     @@count
   end
   def self.reset_all
-    @@owner
+    @@owner = 0
   end
   def say_species 
     return "I am a #{@species}."
