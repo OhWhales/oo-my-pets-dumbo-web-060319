@@ -2,7 +2,7 @@ class Owner
   # code goes here
   @@all = []
   @@count = 0 
-  attr_accessor :name, :pets
+  attr_accessor :name, :pets, :count, :all
   attr_reader :species 
   def initialize(species)
     @@all << self 
@@ -22,7 +22,7 @@ class Owner
     @@count
   end
   def self.reset_all
-    
+    @@owner
   end
   def say_species 
     return "I am a #{@species}."
