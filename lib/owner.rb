@@ -48,8 +48,13 @@ class Owner
   end
   
   def list_pets
-    
+    fish = 0 
+    dogs = 0
+    cats = 0 
+    @pets. each do |pet|
+      
+    end
   end
   
-  
+# "I have 2 fish, 3 dog(s), and 1 cat(s)."
 end
