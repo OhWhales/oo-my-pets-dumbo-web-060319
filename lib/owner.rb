@@ -57,6 +57,9 @@ class Owner
           fish = fish + 1 
         end
       end
+      if k == :dogs 
+        v.each do 
+          dogs = dogs + 1 
     end
   end
   
