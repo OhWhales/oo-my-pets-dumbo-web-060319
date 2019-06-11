@@ -66,6 +66,7 @@ class Owner
         v.each do 
           cats = cats + 1 
         end
+      end
     end
   end
   
