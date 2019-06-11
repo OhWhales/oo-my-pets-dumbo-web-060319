@@ -60,6 +60,7 @@ class Owner
       if k == :dogs 
         v.each do 
           dogs = dogs + 1 
+        end
     end
   end
   
